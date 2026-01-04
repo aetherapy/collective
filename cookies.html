@@ -1,0 +1,46 @@
+<!-- In case we need it in the future -->
+
+
+    <div id="consentBanner" class="fixed bottom-0 right-0 mb-4 mr-4 w-64 hidden">
+      <div class="bg-white rounded-lg shadow-lg p-4">
+        <div class="flex items-center justify-between mb-2">
+          <div class="flex items-center">
+            <img src="https://www.svgrepo.com/show/401340/cookie.svg" alt="Cookie" class="h-6 w-6 mr-2">
+            <span class="text-gray-700 font-bold text-sm">Cookie Policy</span>
+          </div>
+          <button class="text-gray-500 hover:text-gray-700 focus:outline-none close-btn p-2">
+            <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+        </div>
+        <p class="text-gray-600 text-sm">We use cookies to enhance your experience. By continuing to visit this site, you agree to our use of cookies.</p>
+        <button class="mt-4 bg-green-700 hover:bg-green-600 text-white font-bold py-2 px-4 rounded accept-btn">Accept</button>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          // Check if the user has previously accepted the cookie policy
+          if (!localStorage.getItem('cookieConsent')) {
+              showCookieConsent();
+          }
+
+          function showCookieConsent() {
+              const consentBanner = document.querySelector('#consentBanner');
+              consentBanner.classList.remove('hidden');
+
+              const acceptBtn = consentBanner.querySelector('.accept-btn');
+              const closeBtn = consentBanner.querySelector('.close-btn');
+
+              acceptBtn.addEventListener('click', function() {
+                  localStorage.setItem('cookieConsent', 'accepted');
+                  consentBanner.remove();
+              });
+
+              closeBtn.addEventListener('click', function() {
+                  consentBanner.remove();
+              });
+          }
+      });
+    </script>

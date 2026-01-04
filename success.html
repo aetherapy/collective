@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description" content="About Agathe. Explore therapy services with
+      AE Therapy for internationals. Online or in Utrecht with Agathe Eisele.
+      Contact us to schedule a free 30-minute consultation.">
+    <title>Agathe Eisele - AE Therapy for internationals</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                                              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                    })(window,document,'script','dataLayer','GTM-MLFBSWB3');</script>
+    <!-- End Google Tag Manager -->
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "nn6vxme5xp");
+    </script>
+  </head>
+
+
+  <body class="bg-gray-100 text-gray-800" style="font-family: 'Montserrat', sans-serif; background-color: #f9e7c2;">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MLFBSWB3"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Navigation -->
+    <nav class="shadow-lg" style="background-color: #f9e7c2;">
+      <div class="container mx-auto px-4 py-2 flex justify-between items-baseline">
+        <a id="website-name" href="/" class="text-3xl xl:text-5xl font-light mt-4 mb-2" style="color: #488f79; font-family: 'Sorts Mill Goudy', sans-serif;">AE Therapy</a>
+        <button id="menu-toggle" aria-label="menu toggle" class="text-gray-700 hover:text-green-600 xl:hidden">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+               xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+        <div id="menu" class="hidden py-16 xl:py-0 flex flex-col xl:flex-row xl:items-center w-full xl:w-auto xl:block">
+          <a href="/" class="text-xl text-gray-700 hover:text-green-600 mx-4">Home</a>
+          <a href="the_team.html" class="text-xl text-gray-700 hover:text-green-600 mx-4">The team</a>
+          <a href="services.html" class="text-xl text-gray-700 hover:text-green-600 mx-4">Services</a>
+          <a href="faq.html" class="text-xl text-gray-700 hover:text-green-600 mx-4">Contact & FAQ</a>
+          <a href="#contact" class="text-xl text-gray-700 hover:text-green-600 mx-4">Contact</a>
+        </div>
+        <button id="menu-close" aria-label="menu close" class="text-gray-700 hover:text-green-600 xl:hidden hidden">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+
+    <!-- About Section -->
+    <section class="py-20" style="background-color: #f9e7c2;">
+      <div class="container mx-auto px-4 max-w-3xl">
+        <h1 class="text-center text-2xl lg:text-3xl mb-4 mt-8" style="font-family: 'Sorts Mill Goudy', serif;">Thank you for your message, I'll answer it ASAP!</h1>
+      </div>
+    </section>
+
+
+    <footer class="text-black py-4 text-center text-gray-500" style="background-color: #f9e7c2;" >
+      <img src="img/nip.png" alt="Therapist" class="mx-auto w-48 my-8">
+      <p>&copy; 2024 Agathe Eisele. All rights reserved.</p>
+    </footer>
+
+    <script>
+      function toggle_menu() {
+      var menu = document.getElementById('menu');
+      menu.classList.toggle('hidden');
+
+      var menu_toggle = document.getElementById('menu-toggle');
+      menu_toggle.classList.toggle('hidden');
+      var menu_close = document.getElementById('menu-close');
+      menu_close.classList.toggle('hidden');
+
+      var website_name = document.getElementById('website-name');
+      website_name.classList.toggle('hidden');
+      };
+
+      document.getElementById('menu-toggle').addEventListener('click', toggle_menu);
+      document.getElementById('menu-close').addEventListener('click', toggle_menu);
+    </script>
+  </body>
+</html>

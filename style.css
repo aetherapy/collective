@@ -1,0 +1,29 @@
+.hero {
+    background-color: #19443A;
+}
+
+nav {
+    background-color: #f4f3f1;
+}
+
+@media (max-width: 760px) {     /* 768 is md */
+    .hero {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    nav {
+        background-color: #fff3d5;
+    }
+}
+
+#for_whom ul li::marker {
+    content: "·  ";
+    font-size: 1.3em;
+    vertical-align: middle;
+}
+
+#faq_insurance ul li::marker {
+    content: "·  ";
+    font-size: 1.3em;
+    vertical-align: middle;
+}
