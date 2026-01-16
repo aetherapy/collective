@@ -4,8 +4,11 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="French psychologist in Utrecht | AE Therapy">
-    <title>Ioanna Bartzi - Greek psychologist | AE Therapy</title>
+    <meta
+      name="description" content="Explore therapy services with AE Therapy for
+                                  internationals. Online or in Utrecht with Agathe Eisele. Contact us to
+                                  schedule a free 30-minute consultation.">
+    <title>Services - AE Therapy for internationals</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -13,7 +16,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="stylesheet" href="style.css">
-    <!-- Google Tag Manager -->
+<!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                                               new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
                      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -96,66 +99,44 @@
       </div>
     </section>
 
-
-    <!-- About Section -->
-    <section class="pb-16 py-16 font-light text-lg lg:text-xl" style="background-color: #fff3d5;">
-      <div class="container mx-auto px-4 max-w-3xl">
-        <h1 class="text-4xl lg:text-5xl mb-4" style="font-family: 'Sorts Mill Goudy', serif;">Ioanna Bartzi</h1>
-        <p class="max-w-3xl mx-auto mb-8">
-          I am Ioanna, a psychologist with a master’s degree in Clinical
-          Psychology and a deep interest in helping people gain greater
-          self-understanding and emotional well-being. My training includes
-          skills in evidence-based approaches such as Cognitive Behavioural
-          Therapy (CBT), Acceptance and Commitment Therapy (ACT), and
-          Emotion-Focused Therapy (EFT).
+    <!-- Contact Section -->
+    <section id="contact" class="py-20" style="background-color: #f9e7c2;">
+    <!-- <section class="md:py-20 hidden md:block md:visible" style="background-image: url('img/flowers2.jpg'); background-size: cover; background-position: center;"> -->
+      <div class="container mx-auto max-w-3xl px-4">
+        <h1 class="text-4xl lg:text-5xl mb-4" style="font-family: 'Sorts Mill Goudy', serif;">Contact</h1>
+        <h2 class="text-2xl lg:text-3xl mb-4" style="font-family: 'Sorts Mill Goudy', serif;">Schedule a free initial 30-minute appointment</h2>
+        <p class="text-lg font-light mb-8">
+          Reach us via the contact form below. Tell us a little bit about yourself
+          and the reasons that led you to contact us.
         </p>
 
-        <p class="max-w-3xl mx-auto mb-8">
-          I offer online therapy in English and Greek to adults and adolescents
-          dealing with challenges such as depression, anxiety, ADHD,
-          social/interpersonal difficulties, and self-esteem issues.
-        </p>
-
-        <!-- https://anycropper.com/oval-crop -->
-        <img src="img/ioanna-cropped.png" alt="Therapist" class="mx-auto p-4 xl:px-36">
-
-        <p class="max-w-3xl mx-auto mb-16 mt-8">
-          I truly value human connection and I have always been drawn to
-          understanding people and their emotions. Sensitivity and genuine
-          curiosity guide my approach as a therapist, while supporting others
-          through their challenges and witnessing their growth gives me a
-          strong sense of purpose. I aim to create a safe, empathetic space
-          where clients can explore their emotions and reconnect with what
-          truly matters to them, while feeling heard and accepted. Outside of
-          work, I enjoy playing electric guitar and practicing kickboxing -
-          activities that keep me grounded, energized, and connected to balance
-          and creativity.
-        </p>
-
+        <form action="https://api.web3forms.com/submit" method="POST" class="max-w-3xl bg-white shadow-md rounded-lg p-8">
+          <input type="hidden" name="access_key" value="ce3d1bec-322b-4cdf-ae2f-b71a77d0d232">
+          <!-- Form Inputs. Each input must have a name="" attribute -->
+          <div class="mb-4">
+            <label for="name" class="block text-gray-500"><strong>Full name</strong> (required)</label>
+            <input type="text" name="Full name" required class="w-full mt-2 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600">
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block text-gray-500"><strong>Email</strong> (required)</label>
+            <input type="email" name="Email" required class="w-full mt-2 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600">
+          </div>
+          <div class="mb-4">
+            <label for="message" class="block text-gray-500"><strong>Message</strong> (required)</label>
+            <textarea name="Message" required class="h-48 w-full mt-2 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600"></textarea>
+          </div>
+          <!-- Honeypot Spam Protection -->
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+          <!-- Custom Confirmation / Success Page -->
+          <input type="hidden" name="redirect" value="https://aetherapy.nl/success">
+          <button type="submit" class="w-full text-white py-3 rounded-lg font-bold" style="background-color: #7b9d86;"
+                  onmouseover="this.style.backgroundColor='#476f54'"
+                  onmouseout="this.style.backgroundColor='#7b9d86'">Send message</button>
+        </form>
       </div>
     </section>
 
-    <!-- <\!-- About Section -\-> -->
-    <!-- <section class="pb-8 pt-12 font-light text-lg lg:text-xl" style="background-color: #f9e7c2;"> -->
-    <!--   <div class="container mx-auto px-4 max-w-3xl"> -->
-    <!--     <p class="max-w-3xl mx-auto mb-16"> -->
-    <!--       I truly value human connection and I have always been drawn to -->
-    <!--       understanding people and their emotions. Sensitivity and genuine -->
-    <!--       curiosity guide my approach as a therapist, while supporting others -->
-    <!--       through their challenges and witnessing their growth gives me a -->
-    <!--       strong sense of purpose. I aim to create a safe, empathetic space -->
-    <!--       where clients can explore their emotions and reconnect with what -->
-    <!--       truly matters to them, while feeling heard and accepted. Outside of -->
-    <!--       work, I enjoy playing electric guitar and practicing kickboxing - -->
-    <!--       activities that keep me grounded, energized, and connected to balance -->
-    <!--       and creativity. -->
-    <!--     </p> -->
-    <!--   </div> -->
-    <!--   <img src="img/via.jpg" alt="Via Ferrata" class="mx-auto px-4 mb-20 xl:max-w-3xl"> -->
-    <!-- </section> -->
-
-
-      <div id="consentBanner" class="fixed bottom-0 right-0 mb-4 mr-4 w-64 hidden">
+    <div id="consentBanner" class="fixed bottom-0 right-0 mb-4 mr-4 w-64 hidden">
       <div class="bg-white rounded-lg shadow-lg p-4">
         <div class="flex items-center justify-between mb-2">
           <div class="flex items-center">
@@ -199,8 +180,12 @@
       });
     </script>
 
-    <footer class="text-black py-4 text-center text-gray-500" style="background-color: #fff3d5;" >
-      <img src="img/nip.png" alt="Therapist" class="mx-auto w-48 my-8">
+
+    <footer class="text-black py-4 text-center text-gray-500" style="background-color: #f9e7c2;" >
+      <div class="flex flex-row justify-center items-center">
+        <img src="img/queer.png" alt="NIP" class="w-16 my-16 mx-4">
+        <img src="img/nip.png" alt="NIP" class="w-48 my-16 mx-4">
+      </div>
       <p>&copy; 2026 Therapy Utrecht. All rights reserved.</p>
     </footer>
 

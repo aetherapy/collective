@@ -61,8 +61,8 @@
           <a href="/collective" class="text-xl text-gray-700 hover:text-green-600 mx-4">Home</a>
           <a href="the_team.html" class="text-xl text-gray-700 hover:text-green-600 mx-4">The team</a>
           <a href="services.html" class="text-xl text-gray-700 hover:text-green-600 mx-4">Services</a>
-          <a href="faq.html" class="text-xl text-gray-700 hover:text-green-600 mx-4">Contact & FAQ</a>
-          <!-- <a href="#contact" class="text-xl text-gray-700 hover:text-green-600 mx-4">Contact</a> -->
+          <a href="faq.html" class="text-xl text-gray-700 hover:text-green-600 mx-4">FAQ</a>
+          <a href="contact.html" class="text-xl text-gray-700 hover:text-green-600 mx-4">Contact</a>
         </div>
         <button id="menu-close" aria-label="menu close" class="text-gray-700 hover:text-green-600 xl:hidden hidden">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -81,7 +81,7 @@
         <p class="text-md md:text-xl">Estimated waiting time: 4 weeks</p>
         <p class="text-sm md:text-md">(Last updated: 07/11/2025)</p>
 
-        <a href="#contact" class="mt-8 inline-block bg-transparent
+        <a href="contact.html" class="mt-8 inline-block bg-transparent
                                   text-white-600 px-6 py-3 rounded-lg border-white border"
            onmouseover="this.style.backgroundColor='#476f54'"
            onmouseout="this.style.backgroundColor='#7b9d86'">Book a session</a>
@@ -95,7 +95,7 @@
           <p class="text-md md:text-xl">Estimated waiting time: 4 weeks</p>
           <p class="text-sm md:text-md">(Last updated: 07/11/2025)</p>
 
-          <a href="#contact" class="mt-8 inline-block bg-transparent
+          <a href="contact.html" class="mt-8 inline-block bg-transparent
                                     text-white-600 px-6 py-3 rounded-lg border-white border"
              style="background-color:'#7b9d86'"
              onmouseover="this.style.backgroundColor='#476f54'"
@@ -108,7 +108,7 @@
       <div class="px-4 mx-auto max-w-3xl">
         <!-- <h1 class="text-4xl lg:text-5xl mb-4" style="font-family: 'Sorts Mill Goudy', serif;">The team</h1> -->
         <p class="font-light mb-8 text-lg lg:text-3xl">
-          The collective is a collective of mental health professionals
+          Therapy Utrecht is a collective of mental health professionals
           offering psychological care in Utrecht in a wide range of languages.
         </p>
         <p class="font-light mb-8 text-lg lg:text-3xl">
@@ -332,45 +332,9 @@
     <div class="pb-16" style="background-color: #FEF1E1;">
       <p class="text-center block mx-auto italic mb-1">Do you have more questions?</p>
       <p class="text-center block mx-auto mb-4">Don't hesitate to send me a message</p>
-      <a href="#contact" class="text-center block bg-transparent text-white-600 px-6 py-3 rounded-lg border-black border  w-80 mx-auto">Contact</a>
+      <a href="contact.html" class="text-center block bg-transparent text-white-600 px-6 py-3 rounded-lg border-black border  w-80 mx-auto">Contact</a>
     </div>
 
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-20" style="background-color: #FFD2BB;">
-      <div class="container mx-auto max-w-3xl px-4">
-        <h1 class="text-4xl lg:text-5xl mb-4" style="font-family: 'Sorts Mill Goudy', serif;">Contact</h1>
-        <h2 class="text-2xl lg:text-3xl mb-4" style="font-family: 'Sorts Mill Goudy', serif;">Schedule a free initial 30-minute appointment</h2>
-        <p class="text-lg font-light mb-8">
-          Reach us via the contact form below. Tell us a little bit about yourself
-          and the reasons that led you to contact us.
-        </p>
-
-        <form action="https://api.web3forms.com/submit" method="POST" class="max-w-3xl bg-white shadow-md rounded-lg p-8">
-          <input type="hidden" name="access_key" value="ce3d1bec-322b-4cdf-ae2f-b71a77d0d232">
-          <!-- Form Inputs. Each input must have a name="" attribute -->
-          <div class="mb-4">
-            <label for="name" class="block text-gray-500"><strong>Full name</strong> (required)</label>
-            <input type="text" name="Full name" required class="w-full mt-2 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600">
-          </div>
-          <div class="mb-4">
-            <label for="email" class="block text-gray-500"><strong>Email</strong> (required)</label>
-            <input type="email" name="Email" required class="w-full mt-2 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600">
-          </div>
-          <div class="mb-4">
-            <label for="message" class="block text-gray-500"><strong>Message</strong> (required)</label>
-            <textarea name="Message" required class="h-48 w-full mt-2 p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600"></textarea>
-          </div>
-          <!-- Honeypot Spam Protection -->
-          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-          <!-- Custom Confirmation / Success Page -->
-          <input type="hidden" name="redirect" value="https://aetherapy.nl/success">
-          <button type="submit" class="w-full text-white py-3 rounded-lg font-bold" style="background-color: #7b9d86;"
-                  onmouseover="this.style.backgroundColor='#476f54'"
-                  onmouseout="this.style.backgroundColor='#7b9d86'">Send message</button>
-        </form>
-      </div>
-    </section>
 
     <div id="consentBanner" class="fixed bottom-0 right-0 mb-4 mr-4 w-64 hidden">
       <div class="bg-white rounded-lg shadow-lg p-4">
@@ -418,7 +382,10 @@
 
 
     <footer class="text-black py-4 text-center text-gray-500" style="background-color: #FFD2BB;" >
-      <img src="img/nip.png" alt="NIP" class="mx-auto w-48 my-8">
+      <div class="flex flex-row justify-center items-center">
+        <img src="img/queer.png" alt="NIP" class="w-16 my-16 mx-4">
+        <img src="img/nip.png" alt="NIP" class="w-48 my-16 mx-4">
+      </div>
       <p>&copy; 2026 Therapy Utrecht. All rights reserved.</p>
     </footer>
 
